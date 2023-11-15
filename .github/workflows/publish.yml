@@ -20,5 +20,4 @@ jobs:
       - name: Build the hello-docker Docker image
         run: |
             docker build . --tag ghcr.io/jaturong-saothong/sample-app:latest
-            docker run ghcr.io/jaturong-saothong/sample-app:latest
             docker push ghcr.io/jaturong-saothong/sample-app:latest
